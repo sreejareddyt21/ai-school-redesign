@@ -1,0 +1,149 @@
+/* Body */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #eef2ff, #f8fafc);
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background: #1847aa;
+  position: sticky;
+  top: 0;
+}
+
+/* Logo */
+.logo {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+/* Nav links */
+.nav-links {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.nav-links li {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-links li:hover {
+  transform: scale(1.15);
+  background: white;
+  color: #2563eb;
+}
+
+/* Auth buttons */
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Login + Signup SAME SIZE as nav items */
+.login-btn,
+.signup-btn {
+  background: white;
+  color: #2563eb;
+  border: none;
+  padding: 10px 15px;   /* SAME as nav items */
+  border-radius: 6px;
+  font-size: 14px;     /* SAME text size */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.login-btn:hover,
+.signup-btn:hover {
+  background: #dbeafe;
+  transform: scale(1.15);   /* same bulge effect */
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 50px;  /* reduced from 80 → 50 */
+  gap: 10px;
+}
+
+/* Left section */
+.hero-left {
+  max-width: 600px;
+}
+
+/* Heading */
+.hero-left h1 {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+/* Text */
+.hero-left p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Buttons centered */
+.hero-buttons {
+  display: flex;
+  justify-content: center; /* CENTER */
+  gap: 15px;
+}
+
+/* Get Started */
+.primary-btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 1px solid #2563eb;
+  background: white;
+  color: #1f4baa;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover */
+.primary-btn:hover {
+  background-color: #1f4baa;
+  color: white;
+}
+
+/* Schedule Demo */
+.secondary-btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 1px solid #2563eb;
+  background: white;
+  color: #1f4baa;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover */
+.secondary-btn:hover {
+   background-color: #1f4baa;
+  color: white;
+}
+
+/* Image */
+.hero-right img {
+  width: 350px;
+  border-radius: 12px;
+}
